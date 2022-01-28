@@ -1,0 +1,19 @@
+.tech_descriptions {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.tech_row {
+  display: flex;
+  background-color: whitesmoke;
+  padding-left: 10px;
+}
+
+.tech_item {
+  border-radius: 5.5px;
+  color: gray;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+}

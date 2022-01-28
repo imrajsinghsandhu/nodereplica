@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import sampleData from "./assets/sampleData";
+import Row from "./components/Row";
 
+/**
+ * We are going to create a Row component,
+ * which will hold all the row logic, data and animations!
+ */
+
+/**
+ * How do we allow for dynamically converting views from web
+ * to mobile? I would think its done by first accessing the stateof the
+ * system we are on, are we on any popular phone type or computer OS?
+ * Passing this state down to the children components will allow us to
+ * develop two sets of frontend components --> one for web and one for mobile.
+ */
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row data={sampleData} />
     </div>
   );
 }

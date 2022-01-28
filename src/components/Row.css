@@ -1,0 +1,15 @@
+/* For the row of jobs */
+.row_jobs {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+/* never display the scrollbars, 
+    but keep the functionality
+*/
+.row_jobs::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,92 @@
+/* For each individual job */
+.row_job {
+  object-fit: fill;
+  width: 100%;
+  max-height: 350px;
+  transition: transform 820ms;
+  margin-right: 30px;
+  background-color: whitesmoke;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* action when you hover each listing */
+.row_job:hover {
+  transform: scale(1.02);
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 5px 5px rgb(211, 210, 210);
+}
+
+.row_logo {
+  height: 90px;
+  width: 90px;
+  background-color: whitesmoke;
+  padding-top: 10px;
+}
+
+.top_section {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  /* justify-items: center; */
+  background-color: whitesmoke;
+}
+
+.center {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.company_name {
+  background-color: whitesmoke;
+}
+
+.name_and_title {
+  padding-left: 10px;
+  background-color: whitesmoke;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  background-color: whitesmoke;
+}
+
+#middle_section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.listed_style {
+  font-style: italic;
+  font-size: 14px;
+  background-color: whitesmoke;
+}
+
+.category_style {
+  padding: 6px;
+  background-color: rgb(225, 243, 199);
+  color: rgb(61, 201, 68);
+  border-radius: 8px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.horizontal_line {
+  border-top: 10px transparent grey;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bottom_section {
+  padding-top: 20px;
+  background-color: whitesmoke;
+}
