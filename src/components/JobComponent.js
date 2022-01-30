@@ -6,10 +6,8 @@ import TechStacks from "./TechStacks";
 function JobComponent({ data }) {
   return (
     <div key={data.id} className="row_job">
-      <div className="center">
-        <img src={data.logo} className="row_logo" />
-      </div>
       <div className="top_section">
+        <img src={data.logo} className="row_logo" />
         <div className="name_and_title">
           <text className="company_name">{data.name}</text>
           <br />
@@ -20,7 +18,6 @@ function JobComponent({ data }) {
         <text className="listed_style">{data.listed}</text>
         <text className="category_style">{data.category}</text>
       </div>
-      <hr className="horizontal_line" />
       <div className="bottom_section">
         <TechStacks data={data.techStacks} />
       </div>

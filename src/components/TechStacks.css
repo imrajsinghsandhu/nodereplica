@@ -1,18 +1,21 @@
 .tech_descriptions {
   display: flex;
   background-color: whitesmoke;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .tech_row {
   display: flex;
   background-color: whitesmoke;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tech_item {
   border-radius: 5.5px;
   color: gray;
-  padding: 8px;
+  padding: 6px;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 600;
